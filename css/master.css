@@ -1,0 +1,20 @@
+@font-face {
+  font-family: GT-America-Extended-Regular;
+  src: url(./fonts/GT-America-Extended-Regular.otf);
+}
+
+body {
+  font-family: GT-America-Extended-Regular;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#main {
+  height: 800px;
+  width: auto;
+  background-image: url(./img/in-grid_1295.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
