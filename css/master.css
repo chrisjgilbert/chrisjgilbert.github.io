@@ -3,7 +3,7 @@
   src: url(./fonts/GT-America-Extended-Regular.otf);
 }
 
-body {
+html, body {
   font-family: GT-America-Extended-Regular;
   height: 100%;
   width: 100%;
@@ -17,4 +17,18 @@ body {
   background-repeat:no-repeat;
   background-position: center center;
   background-size: cover;
+
+}
+
+
+
+/* links at bottom of main image  */
+.bottom-link {
+  position: relative;
+  top: 600px;
+}
+
+h6 {
+  font-size: 1em;
+  line-height: 12px;
 }
