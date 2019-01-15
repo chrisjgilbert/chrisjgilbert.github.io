@@ -17,8 +17,9 @@ html, body {
   height: 800px;
   width: auto;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(./img/in-grid_1295.jpg);
-  background-repeat:no-repeat;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 
 }
@@ -66,4 +67,12 @@ h1 {
 h6 {
   font-size: 1em;
   line-height: 12px;
+}
+
+/* ABOUT */
+
+#about {
+  height: 800px;
+  width: 100%;
+  background-color: rgb(200, 201, 201)
 }
