@@ -288,3 +288,32 @@ h6 {
     display: none;
   }
 }
+
+
+@media only screen and (max-width: 991px) {
+  /* links at bottom of main image  */
+  .bottom-links-container {
+    position: relative;
+  }
+
+  .bottom-links {
+    position: absolute;
+    bottom: 5;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h6 {
+    font-size: 1em;
+    line-height: 12px;
+  }
+
+  #main .text-left a, #main .text-right a {
+    padding: 0;
+    font-size: 1em;
+    line-height: 12px;
+  }
+}
