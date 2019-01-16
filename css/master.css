@@ -276,9 +276,6 @@ h6 {
     display: none;
   }
 
-  h3 {
-    font-size: : 0.5rem !important;
-  }
 }
 
 @media only screen and (min-width: 435px) {
