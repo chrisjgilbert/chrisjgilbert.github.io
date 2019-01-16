@@ -21,6 +21,27 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-weight: normal;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
 #main {
   height: 100vh;
   width: auto;
@@ -50,13 +71,17 @@ a {
   width: 100%;
 }
 
-h1 {
+#main h1, #main h2 {
   padding: 0;
   margin: 0;
   font-size: 8.5rem;
   text-align: center;
   position: relative;
-  top: 245px;
+  top: 225px;
+}
+
+#main h2 {
+  font-size: 1.5rem;
 }
 
 /* links at bottom of main image  */
@@ -76,6 +101,12 @@ h1 {
 }
 
 h6 {
+  font-size: 1em;
+  line-height: 12px;
+}
+
+#main .text-left a, #main .text-right a {
+  padding: 0;
   font-size: 1em;
   line-height: 12px;
 }
