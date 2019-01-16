@@ -21,6 +21,27 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-weight: normal;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
 #main {
   height: 100vh;
   width: auto;
