@@ -72,7 +72,8 @@ h6 {
 /* ABOUT */
 
 #about {
-  height: 500px;
+  border-top: 0.5px solid white;
+  height: auto;
   width: 100%;
   background-color: rgb(200, 201, 201)
 }
@@ -96,7 +97,9 @@ h6 {
 /* TESTIMONIALS */
 
 #testimonials {
-  height: 1300px;
+  margin-top: 30px;
+  border-top: 0.5px solid white;
+  height: auto;
   width: 100%;
   background-color: rgb(200, 201, 201)
 }
@@ -126,12 +129,15 @@ h6 {
   padding-bottom: 10px;
 }
 
+
 /* BRANDS */
 
 #brands {
+  margin-top: 30px;
+  border-top: 0.5px solid white;
   height: 350px;
   width: 100%;
-  background-color: rgb(200, 201, 201)
+  background-color: rgb(200, 201, 201);
 }
 
 .brands-text {
