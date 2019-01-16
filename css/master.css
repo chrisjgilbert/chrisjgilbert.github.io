@@ -11,7 +11,8 @@ html, body {
   color: white;
   padding: 0;
   margin: 0;
-  background-color: rgb(200, 201, 201)
+  background-color: rgb(200, 201, 201);
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
