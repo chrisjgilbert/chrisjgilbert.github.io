@@ -11,6 +11,8 @@ html, body {
   color: white;
   padding: 0;
   margin: 0;
+  background-color: rgb(200, 201, 201);
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -58,9 +60,19 @@ h1 {
 }
 
 /* links at bottom of main image  */
-.bottom-links {
+.bottom-links-container {
   position: relative;
-  top: 500px;
+
+}
+
+.bottom-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 h6 {
@@ -71,7 +83,8 @@ h6 {
 /* ABOUT */
 
 #about {
-  height: 500px;
+  border-top: 0.5px solid white;
+  height: auto;
   width: 100%;
   background-color: rgb(200, 201, 201)
 }
@@ -95,7 +108,9 @@ h6 {
 /* TESTIMONIALS */
 
 #testimonials {
-  height: 1100px;
+  margin-top: 30px;
+  border-top: 0.5px solid white;
+  height: auto;
   width: 100%;
   background-color: rgb(200, 201, 201)
 }
@@ -123,4 +138,31 @@ h6 {
 #testimonials .brand-quote {
   text-align: justify;
   padding-bottom: 10px;
+}
+
+
+/* BRANDS */
+
+#brands {
+  margin-top: 30px;
+  border-top: 0.5px solid white;
+  height: 350px;
+  width: 100%;
+  background-color: rgb(200, 201, 201);
+}
+
+.brands-text {
+  width: 100%;
+}
+
+#brands .brands-text h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 1.7rem;
+  padding-bottom: 10px;
+}
+
+#brands .brand-name {
+  text-align: center;
+  padding: 0;
 }
