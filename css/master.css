@@ -80,6 +80,30 @@ a {
   top: 225px;
 }
 
+@media only screen and (max-width: 992px) {
+  #main h1, #main h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 7.5rem;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main h1, #main h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 5.5rem;
+    text-align: center;
+    position: relative;
+    top: 225px;
+    color: white;
+  }
+}
+
 #main h2 {
   font-size: 1.5rem;
 }
@@ -109,6 +133,29 @@ h6 {
   padding: 0;
   font-size: 1em;
   line-height: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  h6 {
+    font-size: 1em;
+    line-height: 10px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .nix-name {
+    display: none;
+  }
+  #main .text-left a, #main .text-right a {
+    padding: 0;
+    font-size: 1em;
+    line-height: 10px;
+  }
+
+  .hero-text h2 {
+    font: 0.5rem;
+  }
 }
 
 /* ABOUT */
