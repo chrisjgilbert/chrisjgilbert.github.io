@@ -59,9 +59,17 @@ h1 {
 }
 
 /* links at bottom of main image  */
-.bottom-links {
+.bottom-links-container {
   position: relative;
-  top: 500px;
+
+}
+
+.bottom-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 10px;
 }
 
 h6 {
