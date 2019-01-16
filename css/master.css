@@ -21,9 +21,6 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-weight: normal;
 }
 
-
-
-
 /* unvisited link */
 a:link {
   color: white;
@@ -91,7 +88,6 @@ a {
     text-align: center;
     position: relative;
     top: 190px;
-    color: white;
   }
 }
 
@@ -103,7 +99,17 @@ a {
     text-align: center;
     position: relative;
     top: 225px;
-    color: white;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #main h1, #main h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 4.5rem;
+    text-align: center;
+    position: relative;
+    top: 165px;
   }
 }
 
