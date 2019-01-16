@@ -80,7 +80,7 @@ a {
   top: 225px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   #main h1, #main h2 {
     padding: 0;
     margin: 0;
@@ -91,7 +91,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   #main h1, #main h2 {
     padding: 0;
     margin: 0;
@@ -102,19 +102,36 @@ a {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 575px) {
   #main h1, #main h2 {
     padding: 0;
     margin: 0;
-    font-size: 4.5rem;
     text-align: center;
     position: relative;
-    top: 165px;
+    top: 185px;
+  }
+
+  #main h1 {
+    font-size: 4.5rem;
   }
 }
 
 #main h2 {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 575px) {
+  #main h1, #main h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 205px;
+  }
+
+  #main h1 {
+    font-size: 4.5rem;
+  }
 }
 
 /* links at bottom of main image  */
@@ -144,7 +161,7 @@ h6 {
   line-height: 12px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   h6 {
     font-size: 1em;
     line-height: 10px;
@@ -252,4 +269,22 @@ h6 {
 #brands .brand-name {
   text-align: center;
   padding: 0;
+}
+
+@media only screen and (max-width: 435px) {
+  #main .brand-consultant {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 435px) {
+  #main .nix-role {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 435px) {
+  #main .nix-role {
+    display: none;
+  }
 }
