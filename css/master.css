@@ -70,6 +70,8 @@ h1 {
   left: 0;
   right: 0;
   margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 h6 {
