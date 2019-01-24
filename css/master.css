@@ -45,7 +45,7 @@ a:active {
 #main {
   height: 800px;
   width: auto;
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./img/in-grid_1295.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('img/in-grid_1295.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,13 +71,18 @@ a {
   width: 100%;
 }
 
-#main h1, #main h2 {
-  padding: 0;
+.nix-logo {
+  margin-top: 200px;
+  height: 80%;
+  width: 80%;
+}
+
+#main h2 {
+  padding-top: 30px;
   margin: 0;
   font-size: 8.5rem;
   text-align: center;
   position: relative;
-  top: 225px;
 }
 
 @media only screen and (max-width: 991px) {
