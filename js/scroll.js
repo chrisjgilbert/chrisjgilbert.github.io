@@ -4,4 +4,5 @@ $(document).ready(function() {
           scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
       }, 1000);
   });
+  $('#nix-logo').hide();.fadeIn(3000);
 });
