@@ -278,6 +278,10 @@ h6 {
     display: none;
   }
 
+  #nix-logo {
+    margin-top: 150px;
+  }
+
 }
 
 @media only screen and (min-width: 435px) {
