@@ -76,18 +76,18 @@ a {
 /* main logo style heading */
 
 #logo-container {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-top: -50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40%;
 }
 
 #nix-logo {
-    width: 80%;
+  width: 80%;
 }
 
 #main h2 {
-  padding-top: 30px;
+  padding-top: 10px;
   margin: 0;
   font-size: 89.5rem;
   text-align: center;
@@ -98,22 +98,32 @@ a {
   #main h2 {
     padding: 20px;
     margin: 0;
-    font-size: 7.5rem;
+    font-size: 5.5rem;
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 767px) {#main h2 {
     padding: 10px;
-    font-size: 5.5rem;
-    text-align: center;  }
+    font-size: 3rem;
+    text-align: center;
+    }
+
+  #logo-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
   #main h2 {
-    padding: 10px;
-    margin-top: 10px;
+    padding: 20px;
+    margin-top: 15px !important;
     text-align: center;
+    font-size: 1.2rem !important;
   }
 
 }
@@ -280,6 +290,7 @@ h6 {
   #main .brand-consultant {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 435px) {
