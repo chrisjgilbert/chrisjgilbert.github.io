@@ -52,6 +52,13 @@ a:active {
   background-size: cover;
 }
 
+
+@media (max-width:640px) {
+  #main {
+    background-attachment:initial;
+  }
+}
+
 .links {
   margin-top: 10px;
   width: 100%;
