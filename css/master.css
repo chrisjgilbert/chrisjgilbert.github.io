@@ -75,14 +75,15 @@ a {
 
 /* main logo style heading */
 
-.hero-text {
-  width: 100%;
+#logo-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -50px;
 }
 
-.nix-logo {
-  margin-top: 200px;
-  height: 80%;
-  width: 80%;
+#nix-logo {
+    width: 80%;
 }
 
 #main h2 {
@@ -115,9 +116,6 @@ a {
     text-align: center;
   }
 
-  .nix-logo {
-    margin-bottom: 10px;
-  }
 }
 
 #main h2 {
@@ -171,6 +169,7 @@ h6 {
   .nix-name {
     display: none;
   }
+
   #main .text-left a, #main .text-right a {
     padding: 0;
     font-size: 1em;
@@ -275,11 +274,6 @@ h6 {
   #main .brand-consultant {
     display: none;
   }
-
-  #nix-logo {
-    margin-top: 100px;
-  }
-
 }
 
 @media only screen and (min-width: 435px) {
