@@ -79,65 +79,33 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 40%;
+  bottom: 44%;
 }
 
 #nix-logo {
   width: 80%;
 }
 
-#main h2 {
-  padding-top: 10px;
-  margin: 0;
-  font-size: 89.5rem;
-  text-align: center;
-  position: relative;
-}
-
-@media only screen and (max-width: 991px) {
-  #main h2 {
-    padding: 20px;
-    margin: 0;
-    font-size: 5.5rem;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 767px) {#main h2 {
-    padding: 10px;
-    font-size: 3rem;
-    text-align: center;
-    }
+@media only screen and (max-width: 1024px) {
 
   #logo-container {
     position: absolute;
     left: 0;
     right: 0;
-    top: 40%;
+    bottom: 46%;
   }
 
 }
 
-@media only screen and (max-width: 575px) {
-  #main h2 {
-    padding: 20px;
-    margin-top: 15px !important;
-    text-align: center;
-    font-size: 1.2rem !important;
+@media only screen and (max-width: 768px) {
+
+  #logo-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 46%;
   }
 
-}
-
-#main h2 {
-  font-size: 1.5rem;
-}
-
-@media only screen and (max-width: 575px) {
-  #main h2 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
 }
 
 /* links at bottom of main image  */
@@ -285,27 +253,6 @@ h6 {
   padding: 0;
   font-size: 1.2rem;
 }
-
-@media only screen and (max-width: 435px) {
-  #main .brand-consultant {
-    display: none;
-  }
-
-}
-
-@media only screen and (min-width: 435px) {
-  #main .nix-role {
-    display: inline;
-  }
-}
-
-@media only screen and (min-width: 435px) {
-  #main .nix-role {
-    display: none;
-  }
-
-}
-
 
 @media only screen and (max-width: 991px) {
   /* links at bottom of main image  */
