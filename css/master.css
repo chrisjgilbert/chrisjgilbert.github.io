@@ -165,7 +165,9 @@ h6 {
   border-top: 0.5px solid white;
   height: auto;
   width: 100%;
-  background-color: rgb(200, 201, 201)
+  background-color: rgb(200, 201, 201);
+  padding-top: 45px;
+  padding-bottom: 60px;
 }
 
 .about-text {
@@ -248,10 +250,20 @@ h6 {
   font-size: 1.4rem;
 }
 
+#brands .brand-name {
+  text-align: center;
+}
+
 #brands .brand-quote {
   text-align: center;
   padding: 0;
   font-size: 1.2rem;
+}
+
+#brands a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 991px) {
