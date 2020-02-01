@@ -45,6 +45,16 @@ a:active {
   color: white;
 }
 
+#nav-container button
+{
+  margin-top: 1rem;
+}
+
+#nav-container .nav-item
+{
+  margin: 5px 0;
+}
+
 #main {
   height: 100vh;
   width: auto;
@@ -169,7 +179,6 @@ h6 {
   width: 100%;
   background-color: rgb(200, 201, 201);
   padding-top: 45px;
-  padding-bottom: 60px;
 }
 
 .about-text {
@@ -177,7 +186,6 @@ h6 {
 }
 
 #about .about-text h2 {
-  padding-top: 40px;
   text-align: center;
   font-size: 1.6rem;
 }
@@ -223,6 +231,7 @@ h6 {
   text-align: center;
   padding-bottom: 10px;
   padding: 5px;
+  font-style: italic;
 }
 
 /* BRANDS */
