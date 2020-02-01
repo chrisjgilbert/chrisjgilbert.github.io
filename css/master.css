@@ -65,6 +65,7 @@ a:active {
 }
 
 #main {
+  position: relative;
   display: none;
   height: 100vh;
   width: auto;
@@ -120,6 +121,25 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar
+  {
+    padding: .25rem 0rem;
+  }
+
+  #nav-container .nav-item:first-of-type
+  {
+    margin: 6px 0 2px 0;
+  }
+
+  #nav-container .nav-item
+  {
+    margin: 2px 0;
+  }
+
+  #nav-container a
+  {
+    font-size: 1em;
+  }
 
   #logo-container {
     position: absolute;
